@@ -6,7 +6,7 @@ def auction_game():
       name = input("Type in your name please: \n")
       bid = int(input("Type in your bid please: \n"))
       auction[name] = bid
-      bidders = input("Are there anymore bidders? Type 'yes' or 'no': \n")
+      bidders = input("Are there anymore bidders? Type 'yes' or 'no': \n").lower()
 
       if bidders == "no":
         bidders = False
